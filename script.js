@@ -9,14 +9,14 @@ diceButton.addEventListener("click", () => {
     .then((data) => {
       numEl.textContent = `ADVICE #${data.slip.id}`;
       adviceText.textContent = data.slip.advice;
-      console.log(data);
+      // console.log(data);
     });
 });
 
-fetch("https://jsonplaceholder.typicode.com/todos/1")
-  .then((response) => response.json())
-  .then((json) => console.log(json));
-// async function fetchAdvice() {
+// fetch("https://jsonplaceholder.typicode.com/todos/1")
+//   .then((response) => response.json())
+//   .then((json) => console.log(json));
+// // async function fetchAdvice() {
 //   const response = await fetch(url);
 //   //   const data = await response.text();
 //   //   adviceText.textContent = data;

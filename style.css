@@ -19,6 +19,11 @@
 }
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  padding-bottom: 20px;
 }
 body {
   background-color: var(--Dark-Blue);
@@ -27,15 +32,17 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  position: relative;
+  height: 95vh;
 }
 .advice-el {
   background-color: var(--Dark-Grayish-Blue);
   text-align: center;
   border-radius: 1rem;
   padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 50px;
   width: 350px;
+  position: relative;
 }
 h1 {
   color: var(--Neon-Green);
@@ -45,14 +52,17 @@ h1 {
 .advice-text {
   color: var(--Light-Cyan);
   font-size: 28px;
+  padding-bottom: 1rem;
 }
 .dice {
   border-radius: 50%;
   padding: 20px;
+  left: 9rem;
   position: absolute;
   transition: 0.3s;
   background-color: var(--Neon-Green);
   cursor: pointer;
+  border: none;
 }
 .dice:hover {
   background-color: var(--Neon-Green);
