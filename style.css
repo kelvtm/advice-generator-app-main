@@ -74,7 +74,8 @@ h1 {
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: azure;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(228, 60%, 72%);
 }
