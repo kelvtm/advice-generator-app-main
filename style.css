@@ -69,6 +69,7 @@ h1 {
 }
 .dice:active {
   box-shadow: 0 0 1.25em 0.35em var(--Neon-Green);
+  transform: translate(0, 0.3rem);
 }
 
 .attribution {
